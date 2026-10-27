@@ -1,0 +1,859 @@
+{
+  "formatVersion": 1,
+  "packId": "articulate-writing",
+  "packVersion": 1,
+  "exercises": [
+    {
+      "id": "writing-one-place",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "beginner",
+      "title": "A place worth noticing",
+      "prompt": "Write one paragraph of 80–120 words about a place you know well. Choose one impression and support it with two concrete details. Finish with a sentence that returns to your main point.",
+      "focus": "Help the reader picture one clear impression.",
+      "writing": {
+        "audience": "A classmate who has never visited the place.",
+        "purpose": "Help the reader picture one clear impression.",
+        "kind": "paragraph",
+        "outlineHint": "Main impression → detail one → detail two → closing thought."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-useful-routine",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "beginner",
+      "title": "Explain a useful routine",
+      "prompt": "Explain a simple routine that saves you time. In 120–180 words, name the goal, present the steps in order, and explain one step that a newcomer might misunderstand.",
+      "focus": "Make the sequence usable without extra questions.",
+      "writing": {
+        "audience": "Someone trying the routine for the first time.",
+        "purpose": "Make the sequence usable without extra questions.",
+        "kind": "explanation",
+        "outlineHint": "Goal → ordered steps → tricky step → final check."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-quiet-hour",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "beginner",
+      "title": "Give one reason that matters",
+      "prompt": "A shared study room may introduce a daily quiet hour. Write 120–180 words recommending whether it should. Give one reason and a realistic example. Acknowledge one person who might find the rule difficult.",
+      "focus": "Recommend a practical choice with a reason.",
+      "writing": {
+        "audience": "Students who share the study room.",
+        "purpose": "Recommend a practical choice with a reason.",
+        "kind": "argument",
+        "outlineHint": "Position → reason → example → concern."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-unclear-notice",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "beginner",
+      "title": "Revise an unclear notice",
+      "prompt": "Rewrite this original notice in 80–120 words: “We will do the thing next week near the usual area. Bring what you need. Some people should come early because it might take a while.” Choose reasonable event details yourself. Identify them as your own decisions rather than facts from the notice. Then explain two changes that help the reader act.",
+      "focus": "Replace vague instructions with clear, honest directions.",
+      "writing": {
+        "audience": "A new volunteer who did not hear the earlier announcement.",
+        "purpose": "Replace vague instructions with clear, honest directions.",
+        "kind": "revision",
+        "outlineHint": "Who/what/when/where → preparation → two revision decisions."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-teach-a-concept",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Teach a concept without jargon",
+      "prompt": "Explain how a waiting list works to a new club member in 250–350 words. Use an everyday example, explain what happens when a place opens, and distinguish joining the list from receiving a guaranteed place.",
+      "focus": "Explain a process and correct a likely misunderstanding.",
+      "writing": {
+        "audience": "A new member unfamiliar with registration systems.",
+        "purpose": "Explain a process and correct a likely misunderstanding.",
+        "kind": "explanation",
+        "outlineHint": "Definition → example → sequence → limitation."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-small-experiment",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "intermediate",
+      "title": "An essay about a small experiment",
+      "prompt": "Write a 350–500 word essay about a small change someone could test to improve a study routine. Establish a central idea, develop two connected sections, and explain how the person could tell whether the change helped. Avoid presenting an imagined outcome as proven evidence.",
+      "focus": "Develop a focused idea with connected explanation.",
+      "writing": {
+        "audience": "A student looking for a realistic change to try.",
+        "purpose": "Develop a focused idea with connected explanation.",
+        "kind": "essay",
+        "outlineHint": "Central idea → why the change may help → how to test → qualified conclusion."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-shared-budget",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Make a fair budget argument",
+      "prompt": "A club can fund either a printer or longer access to a shared meeting space. Write 300–450 words recommending one option. Give two reasons, address a reasonable objection, and identify information that could change your recommendation. Do not invent cost figures as facts.",
+      "focus": "Support a recommendation while acknowledging uncertainty.",
+      "writing": {
+        "audience": "Club members deciding how to spend a limited budget.",
+        "purpose": "Support a recommendation while acknowledging uncertainty.",
+        "kind": "argument",
+        "outlineHint": "Recommendation → two reasons → objection → missing information."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-sweeping-claim",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Revise a sweeping claim",
+      "prompt": "Revise this original passage into 200–300 words: “Online meetings are always better. Everyone saves time and nobody misses important information. We should stop meeting in person immediately.” Preserve a defensible main idea, qualify unsupported claims, include a concrete hypothetical example, and address a limitation. Add a brief note explaining your most important revision.",
+      "focus": "Make an overconfident argument fair and supportable.",
+      "writing": {
+        "audience": "A mixed group that values both convenience and participation.",
+        "purpose": "Make an overconfident argument fair and supportable.",
+        "kind": "revision",
+        "outlineHint": "Defensible claim → qualified support → example → limitation → revision note."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-two-readers",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "advanced",
+      "title": "One explanation, two readers",
+      "prompt": "Explain how a recommendation feed selects content in two versions: 200–250 words for a younger student and 200–250 for a community organizer. Distinguish what a system may optimize from what it can know about a person. Add a note explaining three audience-based choices.",
+      "focus": "Adapt detail and language without changing the core meaning.",
+      "writing": {
+        "audience": "A younger student and a community organizer, in separate versions.",
+        "purpose": "Adapt detail and language without changing the core meaning.",
+        "kind": "explanation",
+        "outlineHint": "Shared core idea → student version → organizer version → adaptation note."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-public-space",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "advanced",
+      "title": "An essay that weighs a tradeoff",
+      "prompt": "Write a 600–800 word essay on how a neighborhood should balance quiet space and organized activity in a public park. Define the tension, develop a coherent line of reasoning, engage a competing need fairly, and end with a qualified principle rather than a universal rule. Label hypothetical examples as hypothetical.",
+      "focus": "Develop a nuanced position across several connected sections.",
+      "writing": {
+        "audience": "Residents with different uses for the same park.",
+        "purpose": "Develop a nuanced position across several connected sections.",
+        "kind": "essay",
+        "outlineHint": "Tension → organizing idea → competing needs → synthesis → qualified principle."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-pilot-policy",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "advanced",
+      "title": "Argue for a reversible policy",
+      "prompt": "Propose a limited pilot for allowing flexible opening hours in a shared facility. In 500–700 words, define the decision, compare benefits and costs, address the strongest objection, and specify evidence and a stopping condition for the pilot. Distinguish value judgments from factual claims.",
+      "focus": "Defend a testable recommendation while making tradeoffs visible.",
+      "writing": {
+        "audience": "A committee responsible for access, staffing, and fairness.",
+        "purpose": "Defend a testable recommendation while making tradeoffs visible.",
+        "kind": "argument",
+        "outlineHint": "Proposal → criteria → tradeoffs → objection → evaluation and stopping condition."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    },
+    {
+      "id": "writing-false-choice",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "advanced",
+      "title": "Revise a false choice",
+      "prompt": "Rewrite this original argument in 400–550 words: “Either our group adopts one fixed communication channel or collaboration will fail. Anyone who wants another option is refusing to cooperate.” Remove the false choice, represent a reasonable opposing view fairly, propose a workable policy, and identify what remains uncertain. Add a revision memo explaining which structural change mattered most.",
+      "focus": "Rebuild the argument rather than only polishing its sentences.",
+      "writing": {
+        "audience": "A team whose members have different access needs and work schedules.",
+        "purpose": "Rebuild the argument rather than only polishing its sentences.",
+        "kind": "revision",
+        "outlineHint": "Fair problem definition → alternatives → supported policy → uncertainty → revision memo."
+      },
+      "rubric": {
+        "id": "writing-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "purpose",
+            "label": "Purpose and audience",
+            "description": "Does the draft accomplish a clear purpose for its intended reader?",
+            "anchors": {
+              "emerging": "The main point or intended reader is hard to identify.",
+              "developing": "A purpose is visible, but some details or tone do not serve this reader.",
+              "effective": "The main point is clear, and the detail and tone consistently serve the reader."
+            }
+          },
+          {
+            "id": "organization",
+            "label": "Organization",
+            "description": "Can the reader follow the order and connections between ideas?",
+            "anchors": {
+              "emerging": "Ideas appear in an order the reader must reconstruct.",
+              "developing": "The overall order works, but a connection or paragraph focus needs attention.",
+              "effective": "Paragraphs have clear roles, and transitions explain how ideas connect."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Do reasons, examples, and qualifications support the main point honestly?",
+            "anchors": {
+              "emerging": "Important claims lack explanation, examples, or needed qualifications.",
+              "developing": "Some relevant support is present, but a claim or example needs development.",
+              "effective": "Specific, relevant support connects to the point; uncertainty and hypothetical examples are labelled."
+            }
+          },
+          {
+            "id": "clarity",
+            "label": "Clarity",
+            "description": "Can the reader understand the sentences and references without guessing?",
+            "anchors": {
+              "emerging": "Vague references or crowded sentences obscure important meaning.",
+              "developing": "Meaning is mostly clear, but a phrase or sentence still requires rereading.",
+              "effective": "Precise wording and manageable sentences make the intended meaning easy to follow."
+            }
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original prompts, source passages, guidance and behavioral anchors authored for Writing Studio."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project content included for personal use within Articulate. No third-party text is reproduced."
+      }
+    }
+  ]
+}

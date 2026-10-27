@@ -1,0 +1,40 @@
+Articulate 1.0.1 release candidate - native audio notices
+
+Dart/Flutter dependency licenses are included in Flutter's license registry.
+Manrope and Lora are supplied under the SIL Open Font License 1.1.
+Original exercise authorship and licensing are retained in the bundled JSON
+and in exported attribution. No remote content is fetched by the application.
+
+media_kit wrappers: MIT. record: BSD-3-Clause. Their licenses do not replace
+the licenses of the native audio libraries listed below.
+
+Windows x64 libmpv-2.dll:
+Publisher: https://github.com/media-kit/libmpv-win32-audio-build
+Artifact: mpv-dev-x86_64-20230924-git-652a1dd.7z, release 2023-09-24.
+The binary reports mpv v0.36.0-403-g652a1dd907, FFmpeg n6.0,
+mpv -Dgpl=false, FFmpeg --disable-gpl --disable-nonfree --enable-version3.
+Upstream sources: https://github.com/mpv-player/mpv/commit/652a1dd907
+and https://github.com/FFmpeg/FFmpeg/tree/n6.0.
+
+Android ARM64 libmpv.so:
+Publisher: https://github.com/media-kit/libmpv-android-audio-build/tree/v1.1.8
+Artifact: default-arm64-v8a.jar, release v1.1.8.
+Build recipes specify mpv 0.35.1 with --enable-lgpl, FFmpeg 6.0 with
+--disable-gpl --disable-nonfree --enable-version3, mbedTLS 3.6.1 and
+libxml2 2.10.3. Exact recipes are recorded in the project evidence.
+
+mpv's LGPL configuration and FFmpeg's version3 configuration require reading
+the included LGPL/GPL texts together. Full copyright and attribution reside
+in their source trees. Native libraries are unmodified publisher binaries.
+Nothing in Articulate's terms restricts modification or reverse engineering
+needed to debug modifications to the LGPL libraries. Windows uses a separate,
+replaceable libmpv-2.dll; the source project permits rebuilding Android with
+a replacement library and signing that build with your own key.
+
+RELEASE LIMITATION: a complete corresponding-source/relinking package and
+transitive native-library attribution inventory have not yet been assembled
+and verified against both publisher binaries. The Windows release tag points
+to a version reference, not a complete pinned build tree. Included notice
+texts and source links alone do not establish distribution compliance.
+These are private evaluation release candidates. Redistribution is not
+cleared until this remaining native-license/source audit is completed.

@@ -1,0 +1,937 @@
+{
+  "formatVersion": 1,
+  "packId": "articulate-reading",
+  "packVersion": 1,
+  "exercises": [
+    {
+      "id": "reading-seed-shelf",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "beginner",
+      "title": "The seed shelf",
+      "prompt": "Read the original passage, answer in your own words where invited, then preserve your first answers before checking explanations.",
+      "focus": "Distinguish what the text states, what it supports, and what remains uncertain.",
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original passage and exercises authored for this offline application."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original Articulate exercise content supplied for personal practice within this project. No third-party passage is reproduced."
+      },
+      "rubric": {
+        "id": "reading-reasoning-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "accuracy",
+            "label": "Accuracy",
+            "description": "Represent the passage without adding unsupported claims."
+          },
+          {
+            "id": "evidence",
+            "label": "Evidence and limits",
+            "description": "Connect interpretations to relevant details and acknowledge limits."
+          },
+          {
+            "id": "clarity",
+            "label": "Clear reasoning",
+            "description": "Explain the connection in your own words; other sound wording is welcome."
+          }
+        ]
+      },
+      "reading": {
+        "passage": [
+          {
+            "id": "p-one",
+            "text": "At the community library, Mara placed a small shelf beside the returns desk. It held packets of bean, basil and sunflower seeds. A handwritten sign invited visitors to take one packet and, if their plants produced extra seeds, bring some back later. Returning seeds was a request, not a condition for taking a packet."
+          },
+          {
+            "id": "p-two",
+            "text": "During the first week, several visitors asked whether they needed a garden. Mara added a card explaining that basil could grow in a pot near a bright window. She also moved the shelf away from the sunny entrance because the packets needed to stay cool and dry."
+          },
+          {
+            "id": "p-three",
+            "text": "By the end of the month, twenty packets had gone and three new packets had arrived. Mara wrote both numbers in her notebook. She decided to keep the shelf for another month and ask visitors which instructions they found useful. She did not yet know how many plants had survived."
+          }
+        ],
+        "questions": [
+          {
+            "id": "literal",
+            "kind": "literal",
+            "prompt": "What did the sign ask visitors to do if possible?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Return extra seeds later"
+              },
+              {
+                "id": "b",
+                "text": "Pay before taking seeds"
+              },
+              {
+                "id": "c",
+                "text": "Bring a photograph of a garden"
+              }
+            ],
+            "answerKey": "a",
+            "rationale": "Paragraph 1 says visitors could bring back extra seeds; this was a request rather than a condition."
+          },
+          {
+            "id": "inference",
+            "kind": "inference",
+            "prompt": "Why did Mara add the window-pot card?",
+            "options": [
+              {
+                "id": "a",
+                "text": "To discourage people with gardens"
+              },
+              {
+                "id": "b",
+                "text": "To show that a garden was not essential"
+              },
+              {
+                "id": "c",
+                "text": "To promise that every seed would grow"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Visitors asked whether they needed a garden. The new card addresses that concern by describing a pot, without promising success."
+          },
+          {
+            "id": "evidence",
+            "kind": "evidence",
+            "prompt": "Which paragraph most clearly shows Mara treating the shelf as an experiment?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Paragraph 1",
+                "paragraphId": "p-one"
+              },
+              {
+                "id": "b",
+                "text": "Paragraph 2",
+                "paragraphId": "p-two"
+              },
+              {
+                "id": "c",
+                "text": "Paragraph 3",
+                "paragraphId": "p-three"
+              }
+            ],
+            "answerKey": "c",
+            "rationale": "Paragraph 3 records uptake and returns, keeps the trial going, and explicitly leaves plant survival unknown."
+          },
+          {
+            "id": "summary",
+            "kind": "summary",
+            "prompt": "Summarize what Mara introduced, how she adapted it and what remained uncertain, in two or three sentences.",
+            "sampleReasoning": "Mara tested a free seed shelf at the library, inviting voluntary returns. She added advice for people without gardens and protected the packets from sunlight. Early counts showed use, but did not show how many plants survived.",
+            "reviewPrompts": [
+              "Have I included the main idea and essential qualifications?",
+              "Have I kept the passage's meaning without adding claims?",
+              "Is my summary clear, concise and in my own words?"
+            ]
+          },
+          {
+            "id": "critical",
+            "kind": "critical",
+            "prompt": "Does the number of packets taken prove that the project helped people grow plants? Explain and suggest one useful follow-up.",
+            "sampleReasoning": "Packets taken measure interest or access, not successful growing. A voluntary follow-up about sprouting or survival could help, though people who reply may differ from people who do not.",
+            "reviewPrompts": [
+              "Have I answered the question with reasons rather than a bare opinion?",
+              "Which passage detail supports my reasoning, and what does it not establish?",
+              "Could another defensible interpretation or limitation improve my answer?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "reading-late-bus",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "beginner",
+      "title": "A later bus trial",
+      "prompt": "Read the original passage, answer in your own words where invited, then preserve your first answers before checking explanations.",
+      "focus": "Distinguish what the text states, what it supports, and what remains uncertain.",
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original passage and exercises authored for this offline application."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original Articulate exercise content supplied for personal practice within this project. No third-party passage is reproduced."
+      },
+      "rubric": {
+        "id": "reading-reasoning-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "accuracy",
+            "label": "Accuracy",
+            "description": "Represent the passage without adding unsupported claims."
+          },
+          {
+            "id": "evidence",
+            "label": "Evidence and limits",
+            "description": "Connect interpretations to relevant details and acknowledge limits."
+          },
+          {
+            "id": "clarity",
+            "label": "Clear reasoning",
+            "description": "Explain the connection in your own words; other sound wording is welcome."
+          }
+        ]
+      },
+      "reading": {
+        "passage": [
+          {
+            "id": "p-one",
+            "text": "For four Fridays, the town tried one extra bus at 8:30 in the evening. Normally the last bus left at 7:00. The trial served the same route and charged the usual fare. A notice at the stop asked passengers to tell the transport office whether the later trip helped them."
+          },
+          {
+            "id": "p-two",
+            "text": "The driver counted twelve passengers on the first Friday and nineteen on the second. Heavy rain fell on the third Friday, when eight people boarded. On the fourth, a school concert ended just before the bus arrived, and twenty-six people used it. The office recorded these events beside the counts."
+          },
+          {
+            "id": "p-three",
+            "text": "One shop assistant said the trial let her finish work without asking her brother for a lift. A concert visitor also praised the service. The transport office planned to compare running costs with the counts before deciding whether to continue. It warned that four Fridays could not describe demand on every evening."
+          }
+        ],
+        "questions": [
+          {
+            "id": "literal",
+            "kind": "literal",
+            "prompt": "How many Fridays were included in the trial?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Two"
+              },
+              {
+                "id": "b",
+                "text": "Four"
+              },
+              {
+                "id": "c",
+                "text": "Every Friday for a year"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Paragraph 1 explicitly sets the trial length at four Fridays."
+          },
+          {
+            "id": "inference",
+            "kind": "inference",
+            "prompt": "Why did the office record rain and the concert beside the counts?",
+            "options": [
+              {
+                "id": "a",
+                "text": "These events might help explain different passenger numbers"
+              },
+              {
+                "id": "b",
+                "text": "The bus used a different route in rain"
+              },
+              {
+                "id": "c",
+                "text": "The concert paid all bus costs"
+              }
+            ],
+            "answerKey": "a",
+            "rationale": "Paragraph 2 links unusual circumstances with counts. This supports considering context, but does not establish exact causes or funding."
+          },
+          {
+            "id": "evidence",
+            "kind": "evidence",
+            "prompt": "Which paragraph directly states a limit on what the trial can show?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Paragraph 1",
+                "paragraphId": "p-one"
+              },
+              {
+                "id": "b",
+                "text": "Paragraph 2",
+                "paragraphId": "p-two"
+              },
+              {
+                "id": "c",
+                "text": "Paragraph 3",
+                "paragraphId": "p-three"
+              }
+            ],
+            "answerKey": "c",
+            "rationale": "Paragraph 3 says four Fridays cannot describe demand on every evening."
+          },
+          {
+            "id": "summary",
+            "kind": "summary",
+            "prompt": "Summarize the trial and the information the office still needed before making a decision.",
+            "sampleReasoning": "The town tested an extra Friday evening bus for four weeks, with varying passenger counts and positive comments from two users. It recorded events that might affect demand and planned to compare costs. The short trial could not establish demand on all evenings.",
+            "reviewPrompts": [
+              "Have I included the main idea and essential qualifications?",
+              "Have I kept the passage's meaning without adding claims?",
+              "Is my summary clear, concise and in my own words?"
+            ]
+          },
+          {
+            "id": "critical",
+            "kind": "critical",
+            "prompt": "A leaflet says, 'Twenty-six passengers prove the later bus will always be full.' How well does the passage support this claim?",
+            "sampleReasoning": "Twenty-six is one count on a concert night. Other counts were lower, and no bus capacity is given. Longer observation across ordinary evenings would support a narrower claim more reliably.",
+            "reviewPrompts": [
+              "Have I answered the question with reasons rather than a bare opinion?",
+              "Which passage detail supports my reasoning, and what does it not establish?",
+              "Could another defensible interpretation or limitation improve my answer?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "reading-repair-table",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Beyond the repair count",
+      "prompt": "Read the original passage, answer in your own words where invited, then preserve your first answers before checking explanations.",
+      "focus": "Distinguish what the text states, what it supports, and what remains uncertain.",
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original passage and exercises authored for this offline application."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original Articulate exercise content supplied for personal practice within this project. No third-party passage is reproduced."
+      },
+      "rubric": {
+        "id": "reading-reasoning-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "accuracy",
+            "label": "Accuracy",
+            "description": "Represent the passage without adding unsupported claims."
+          },
+          {
+            "id": "evidence",
+            "label": "Evidence and limits",
+            "description": "Connect interpretations to relevant details and acknowledge limits."
+          },
+          {
+            "id": "clarity",
+            "label": "Clear reasoning",
+            "description": "Explain the connection in your own words; other sound wording is welcome."
+          }
+        ]
+      },
+      "reading": {
+        "passage": [
+          {
+            "id": "p-one",
+            "text": "The residents' centre opened a monthly repair table where volunteers helped neighbours examine broken household items. The organisers wanted to reduce waste and share practical skills. Visitors signed a safety agreement, and volunteers declined work on equipment they could not handle safely. The table was neither a commercial repair service nor a guarantee that an item would work again."
+          },
+          {
+            "id": "p-two",
+            "text": "After three meetings, the organisers reported thirty items examined and eighteen returned to use. They called this a promising start. Their count excluded items that owners took home for further work; it also did not show whether repaired items were still working a month later. The organisers had kept descriptions of repairs but had not weighed items, so they could not calculate a weight of waste avoided."
+          },
+          {
+            "id": "p-three",
+            "text": "During an informal discussion, a visitor whose lamp remained broken said she had learned how to describe the fault clearly. Another visitor enjoyed meeting a neighbour who knew about sewing machines. These comments suggested benefits beyond completed repairs, but the organisers had spoken mainly to people who stayed until closing. Visitors who left early might have had different experiences."
+          },
+          {
+            "id": "p-four",
+            "text": "For the next three meetings, the team proposed an optional follow-up card and a short question offered to every departing visitor. Volunteers worried that recording too much would leave less time for repairs. They agreed to test two questions first, then review whether the information justified the extra work."
+          }
+        ],
+        "questions": [
+          {
+            "id": "literal",
+            "kind": "literal",
+            "prompt": "What did eighteen represent in the report?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Items examined"
+              },
+              {
+                "id": "b",
+                "text": "Items returned to use"
+              },
+              {
+                "id": "c",
+                "text": "Kilograms of waste avoided"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Paragraph 2 distinguishes thirty examined items from eighteen returned to use; no weight was recorded."
+          },
+          {
+            "id": "inference",
+            "kind": "inference",
+            "prompt": "Why did the team choose to test only two questions?",
+            "options": [
+              {
+                "id": "a",
+                "text": "To balance useful information against time spent recording"
+              },
+              {
+                "id": "b",
+                "text": "To guarantee positive feedback"
+              },
+              {
+                "id": "c",
+                "text": "To replace all repair work with surveys"
+              }
+            ],
+            "answerKey": "a",
+            "rationale": "The concern in paragraph 4 is the trade-off between recording and repair time. Testing a small set responds to that concern."
+          },
+          {
+            "id": "evidence",
+            "kind": "evidence",
+            "prompt": "Which paragraph gives the clearest reason the discussion comments may be unrepresentative?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Paragraph 1",
+                "paragraphId": "p-one"
+              },
+              {
+                "id": "b",
+                "text": "Paragraph 2",
+                "paragraphId": "p-two"
+              },
+              {
+                "id": "c",
+                "text": "Paragraph 3",
+                "paragraphId": "p-three"
+              },
+              {
+                "id": "d",
+                "text": "Paragraph 4",
+                "paragraphId": "p-four"
+              }
+            ],
+            "answerKey": "c",
+            "rationale": "Paragraph 3 identifies who was heard: mostly visitors who stayed until closing, potentially excluding different experiences."
+          },
+          {
+            "id": "summary",
+            "kind": "summary",
+            "prompt": "In three or four sentences, explain the project, what its early evidence supports, and the proposed improvement.",
+            "sampleReasoning": "The repair table aimed to reduce waste and share skills. Eighteen of thirty examined items returned to use, but long-term functioning and waste weight were unknown. Comments suggested learning and social benefits, with a biased sample. The team planned a small follow-up trial that would limit recording time.",
+            "reviewPrompts": [
+              "Have I included the main idea and essential qualifications?",
+              "Have I kept the passage's meaning without adding claims?",
+              "Is my summary clear, concise and in my own words?"
+            ]
+          },
+          {
+            "id": "critical",
+            "kind": "critical",
+            "prompt": "Should the organisers describe the table's success using only the eighteen completed repairs? Weigh one strength and one limitation of that measure.",
+            "sampleReasoning": "The count is a concrete outcome connected to reusing items, so it is useful. It misses durability and learning or social benefits, while a broader survey introduces its own burden and selection limits. A balanced report could retain the count with explicit limits and a small amount of follow-up.",
+            "reviewPrompts": [
+              "Have I answered the question with reasons rather than a bare opinion?",
+              "Which passage detail supports my reasoning, and what does it not establish?",
+              "Could another defensible interpretation or limitation improve my answer?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "reading-cool-courtyard",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "intermediate",
+      "title": "The courtyard comparison",
+      "prompt": "Read the original passage, answer in your own words where invited, then preserve your first answers before checking explanations.",
+      "focus": "Distinguish what the text states, what it supports, and what remains uncertain.",
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original passage and exercises authored for this offline application."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original Articulate exercise content supplied for personal practice within this project. No third-party passage is reproduced."
+      },
+      "rubric": {
+        "id": "reading-reasoning-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "accuracy",
+            "label": "Accuracy",
+            "description": "Represent the passage without adding unsupported claims."
+          },
+          {
+            "id": "evidence",
+            "label": "Evidence and limits",
+            "description": "Connect interpretations to relevant details and acknowledge limits."
+          },
+          {
+            "id": "clarity",
+            "label": "Clear reasoning",
+            "description": "Explain the connection in your own words; other sound wording is welcome."
+          }
+        ]
+      },
+      "reading": {
+        "passage": [
+          {
+            "id": "p-one",
+            "text": "Two apartment blocks shared a paved courtyard. After residents complained about heat, the housing team installed temporary shade cloth over one seating area for six weeks. A second seating area remained uncovered. The team placed a temperature sensor beside each bench and recorded readings at noon. It also invited residents to leave comments in a box near the entrance."
+          },
+          {
+            "id": "p-two",
+            "text": "The shaded sensor recorded lower temperatures on most sunny days. Yet the uncovered bench was closer to a dark brick wall, and the sensors had not been exchanged between sites. The team acknowledged that location and equipment differences could affect the comparison. Readings at noon also said nothing about how comfortable the courtyard felt at breakfast or after sunset."
+          },
+          {
+            "id": "p-three",
+            "text": "Comments from eleven residents welcomed the shade. Three others said the cloth blocked their view of the trees, and two asked whether it could withstand winter storms. The team published all sixteen comments without calling them a representative vote. There was no count of how many residents had noticed the box, and one person could have submitted more than one comment."
+          },
+          {
+            "id": "p-four",
+            "text": "Instead of ordering a permanent roof immediately, the team proposed moving the sensors between locations and taking readings at several times of day. It also planned a staffed discussion with residents who rarely used the courtyard. These steps would not settle every question about cost or comfort, but could make the next decision less dependent on one narrow comparison."
+          }
+        ],
+        "questions": [
+          {
+            "id": "literal",
+            "kind": "literal",
+            "prompt": "When were the original sensor readings taken?",
+            "options": [
+              {
+                "id": "a",
+                "text": "At noon"
+              },
+              {
+                "id": "b",
+                "text": "At sunrise and sunset"
+              },
+              {
+                "id": "c",
+                "text": "Every hour"
+              }
+            ],
+            "answerKey": "a",
+            "rationale": "Paragraph 1 specifies noon; paragraph 2 explicitly limits what those readings reveal at other times."
+          },
+          {
+            "id": "inference",
+            "kind": "inference",
+            "prompt": "What is the main reason for exchanging the sensors?",
+            "options": [
+              {
+                "id": "a",
+                "text": "To remove the need for resident comments"
+              },
+              {
+                "id": "b",
+                "text": "To explore whether equipment differences affect the comparison"
+              },
+              {
+                "id": "c",
+                "text": "To make the courtyard colder by itself"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Paragraph 2 identifies equipment differences as a possible influence. Exchanging sensors helps examine that influence; it does not itself cool the space."
+          },
+          {
+            "id": "evidence",
+            "kind": "evidence",
+            "prompt": "Which paragraph most directly challenges treating the comments as a representative vote?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Paragraph 1",
+                "paragraphId": "p-one"
+              },
+              {
+                "id": "b",
+                "text": "Paragraph 2",
+                "paragraphId": "p-two"
+              },
+              {
+                "id": "c",
+                "text": "Paragraph 3",
+                "paragraphId": "p-three"
+              },
+              {
+                "id": "d",
+                "text": "Paragraph 4",
+                "paragraphId": "p-four"
+              }
+            ],
+            "answerKey": "c",
+            "rationale": "Paragraph 3 notes unknown exposure to the box and possible repeat submissions, and avoids claiming representativeness."
+          },
+          {
+            "id": "summary",
+            "kind": "summary",
+            "prompt": "Summarize the early findings and why the housing team proposed more observation before a permanent decision.",
+            "sampleReasoning": "A temporary shade trial produced lower noon readings on most sunny days and a mixture of resident comments. Differences in sensor sites and equipment limited causal conclusions, and the comment box was not a representative vote. The team proposed broader measurements and discussion before committing to a permanent structure.",
+            "reviewPrompts": [
+              "Have I included the main idea and essential qualifications?",
+              "Have I kept the passage's meaning without adding claims?",
+              "Is my summary clear, concise and in my own words?"
+            ]
+          },
+          {
+            "id": "critical",
+            "kind": "critical",
+            "prompt": "Would exchanging sensors alone prove that shade improves residents' comfort? Explain what it addresses and what it leaves unresolved.",
+            "sampleReasoning": "Exchanging sensors can help identify equipment effects, but the two sites still differ and temperature is not the whole experience of comfort. Measurements at more times, resident experiences, and attention to wind, views and cost would add relevant evidence.",
+            "reviewPrompts": [
+              "Have I answered the question with reasons rather than a bare opinion?",
+              "Which passage detail supports my reasoning, and what does it not establish?",
+              "Could another defensible interpretation or limitation improve my answer?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "reading-quiet-floor",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "advanced",
+      "title": "What counts as a quiet floor?",
+      "prompt": "Read the original passage, answer in your own words where invited, then preserve your first answers before checking explanations.",
+      "focus": "Distinguish what the text states, what it supports, and what remains uncertain.",
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original passage and exercises authored for this offline application."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original Articulate exercise content supplied for personal practice within this project. No third-party passage is reproduced."
+      },
+      "rubric": {
+        "id": "reading-reasoning-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "accuracy",
+            "label": "Accuracy",
+            "description": "Represent the passage without adding unsupported claims."
+          },
+          {
+            "id": "evidence",
+            "label": "Evidence and limits",
+            "description": "Connect interpretations to relevant details and acknowledge limits."
+          },
+          {
+            "id": "clarity",
+            "label": "Clear reasoning",
+            "description": "Explain the connection in your own words; other sound wording is welcome."
+          }
+        ]
+      },
+      "reading": {
+        "passage": [
+          {
+            "id": "p-one",
+            "text": "A university library piloted a silent-floor policy during a six-week examination period. Before the pilot, the floor permitted brief conversations; during it, staff redirected conversations to a downstairs area. The proposal described silence as a shared resource: a predictable place to concentrate, including for students who lacked a quiet room at home. It also promised that other floors would remain available for collaborative work."
+          },
+          {
+            "id": "p-two",
+            "text": "At the end of the pilot, recorded noise complaints about that floor had fallen from forty-two in the previous six weeks to seventeen. The library's report placed these figures beside a rise in seat occupancy. It called the combination encouraging but stopped short of attributing both changes to the policy. Examination schedules, longer opening hours and publicity about the refurbished desks had all changed at roughly the same time."
+          },
+          {
+            "id": "p-three",
+            "text": "An online survey drew 280 responses. Most respondents favoured keeping the policy, while several described feeling anxious about accidental noise from mobility aids, coughs or opening bags. The survey link appeared on the library homepage and on posters inside the building. Staff could not establish how well it reached students who had stopped visiting or who mainly studied elsewhere."
+          },
+          {
+            "id": "p-four",
+            "text": "Some advocates argued that the policy should be permanent because rules lose credibility when exceptions multiply. A student adviser countered that equal rules can create unequal burdens. She proposed clearer descriptions of ordinary unavoidable sounds, consistent staff guidance, and an accessible way to ask for help. Her argument did not reject quiet study; it questioned how silence was defined and enforced."
+          },
+          {
+            "id": "p-five",
+            "text": "The library committee recommended continuing the pilot for one ordinary teaching period with revised guidance. It asked for information about complaint handling and reasons for non-use, alongside occupancy and survey results. This would delay a permanent decision, but it would also test whether the policy worked outside examinations and whether its benefits could be retained with fewer unintended barriers."
+          }
+        ],
+        "questions": [
+          {
+            "id": "literal",
+            "kind": "literal",
+            "prompt": "Which outcome fell from forty-two to seventeen?",
+            "options": [
+              {
+                "id": "a",
+                "text": "All library visitors"
+              },
+              {
+                "id": "b",
+                "text": "Recorded noise complaints about the pilot floor"
+              },
+              {
+                "id": "c",
+                "text": "Students who needed collaborative rooms"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Paragraph 2 gives these numbers for recorded complaints on that floor, not for all users or all noise."
+          },
+          {
+            "id": "inference",
+            "kind": "inference",
+            "prompt": "How does the adviser differ from the advocates?",
+            "options": [
+              {
+                "id": "a",
+                "text": "She rejects any quiet study area"
+              },
+              {
+                "id": "b",
+                "text": "She supports the aim but questions burdens created by enforcement"
+              },
+              {
+                "id": "c",
+                "text": "She believes survey responses are a complete census"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Paragraph 4 explicitly preserves the aim of quiet study while questioning definitions and enforcement."
+          },
+          {
+            "id": "evidence",
+            "kind": "evidence",
+            "prompt": "Which paragraph gives the most direct warning against attributing changed usage to the policy alone?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Paragraph 1",
+                "paragraphId": "p-one"
+              },
+              {
+                "id": "b",
+                "text": "Paragraph 2",
+                "paragraphId": "p-two"
+              },
+              {
+                "id": "c",
+                "text": "Paragraph 3",
+                "paragraphId": "p-three"
+              },
+              {
+                "id": "d",
+                "text": "Paragraph 4",
+                "paragraphId": "p-four"
+              },
+              {
+                "id": "e",
+                "text": "Paragraph 5",
+                "paragraphId": "p-five"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Paragraph 2 lists simultaneous changes in examination schedules, hours and desk publicity as alternative influences."
+          },
+          {
+            "id": "summary",
+            "kind": "summary",
+            "prompt": "In no more than five sentences, represent the policy's purpose, the evidence and its limits, the equity concern, and the committee's decision.",
+            "sampleReasoning": "The pilot aimed to provide predictable quiet study while retaining collaboration elsewhere. Complaints fell and occupancy rose, but other simultaneous changes limited causal claims. Survey support might not represent non-users, and some users described burdens from an overly strict idea of silence. The committee extended the trial into an ordinary teaching period with clearer guidance and broader evidence.",
+            "reviewPrompts": [
+              "Have I included the main idea and essential qualifications?",
+              "Have I kept the passage's meaning without adding claims?",
+              "Is my summary clear, concise and in my own words?"
+            ]
+          },
+          {
+            "id": "critical",
+            "kind": "critical",
+            "prompt": "Evaluate the claim that making exceptions necessarily destroys a quiet-floor policy. Distinguish an empirical prediction from a value judgment, and propose evidence that could inform the disagreement.",
+            "sampleReasoning": "The prediction that exceptions undermine quiet is empirical and could be examined through observed disruptions, complaints and consistent handling under revised guidance. Whether equal treatment requires identical rules is a value judgment about fairness, not settled by counts alone. Reasons for non-use and affected users' experiences can inform the trade-off without proving a single correct value choice.",
+            "reviewPrompts": [
+              "Have I answered the question with reasons rather than a bare opinion?",
+              "Which passage detail supports my reasoning, and what does it not establish?",
+              "Could another defensible interpretation or limitation improve my answer?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "reading-water-dashboard",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "advanced",
+      "title": "A number with a boundary",
+      "prompt": "Read the original passage, answer in your own words where invited, then preserve your first answers before checking explanations.",
+      "focus": "Distinguish what the text states, what it supports, and what remains uncertain.",
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original passage and exercises authored for this offline application."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original Articulate exercise content supplied for personal practice within this project. No third-party passage is reproduced."
+      },
+      "rubric": {
+        "id": "reading-reasoning-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "accuracy",
+            "label": "Accuracy",
+            "description": "Represent the passage without adding unsupported claims."
+          },
+          {
+            "id": "evidence",
+            "label": "Evidence and limits",
+            "description": "Connect interpretations to relevant details and acknowledge limits."
+          },
+          {
+            "id": "clarity",
+            "label": "Clear reasoning",
+            "description": "Explain the connection in your own words; other sound wording is welcome."
+          }
+        ]
+      },
+      "reading": {
+        "passage": [
+          {
+            "id": "p-one",
+            "text": "A small municipality launched a public dashboard showing weekly water use for each district. Its stated aim was to help residents notice unusual changes and support conservation. The dashboard reported water delivered through district meters divided by the number of registered households. A note explained that deliveries included some public buildings and small businesses, and that the household register was updated only twice a year."
+          },
+          {
+            "id": "p-two",
+            "text": "In the first month, one district's displayed average fell by twelve percent. A local newsletter attributed the fall to residents responding to the dashboard. The water office offered a more cautious account: a leaking pipe had been repaired during the same month, a school had closed for a holiday, and meter readings covered slightly different numbers of days. The office had not separated these influences."
+          },
+          {
+            "id": "p-three",
+            "text": "Publishing a district average avoided showing individual bills, but it did not eliminate questions about fairness. An area with many rented rooms could have more residents per registered household than an area of smaller households. A high displayed figure could therefore reflect household composition, shared facilities or commercial demand rather than unusually wasteful behaviour. Rankings made these distinctions easy to overlook."
+          },
+          {
+            "id": "p-four",
+            "text": "A campaign group still welcomed the dashboard. It argued that an imperfect measure can make a neglected issue visible and invite useful questions. A housing advocate agreed about visibility but objected to using the rankings to shame districts. Both supported adding explanations; they disagreed about whether the competitive league table should remain while the underlying comparisons were being improved."
+          },
+          {
+            "id": "p-five",
+            "text": "The council proposed publishing total deliveries and the number of reading days beside each average, marking major repairs, and collecting feedback on the explanations. It deferred any reward scheme based on rankings. The changes would make the calculation easier to inspect, although they would not instantly produce comparable household populations or isolate the effect of public feedback on consumption."
+          }
+        ],
+        "questions": [
+          {
+            "id": "literal",
+            "kind": "literal",
+            "prompt": "What is the dashboard's displayed average based on?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Individual residents' drinking water only"
+              },
+              {
+                "id": "b",
+                "text": "District deliveries divided by registered households"
+              },
+              {
+                "id": "c",
+                "text": "Only commercial meters divided by businesses"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Paragraph 1 defines the calculation and warns that deliveries include some non-household use."
+          },
+          {
+            "id": "inference",
+            "kind": "inference",
+            "prompt": "What agreement exists between the campaign group and housing advocate?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Rankings should be used to shame districts"
+              },
+              {
+                "id": "b",
+                "text": "The measure is already fully comparable"
+              },
+              {
+                "id": "c",
+                "text": "More explanation is useful, even though they disagree about rankings"
+              }
+            ],
+            "answerKey": "c",
+            "rationale": "Paragraph 4 states that both favour explanations while disagreeing about retaining competition."
+          },
+          {
+            "id": "evidence",
+            "kind": "evidence",
+            "prompt": "Which paragraph most directly challenges the newsletter's causal explanation of the twelve-percent fall?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Paragraph 1",
+                "paragraphId": "p-one"
+              },
+              {
+                "id": "b",
+                "text": "Paragraph 2",
+                "paragraphId": "p-two"
+              },
+              {
+                "id": "c",
+                "text": "Paragraph 3",
+                "paragraphId": "p-three"
+              },
+              {
+                "id": "d",
+                "text": "Paragraph 4",
+                "paragraphId": "p-four"
+              },
+              {
+                "id": "e",
+                "text": "Paragraph 5",
+                "paragraphId": "p-five"
+              }
+            ],
+            "answerKey": "b",
+            "rationale": "Paragraph 2 identifies repairs, a holiday and different reading periods that the office had not separated from any dashboard effect."
+          },
+          {
+            "id": "summary",
+            "kind": "summary",
+            "prompt": "Summarize the dashboard's purpose, the main limits of the measure, the disagreement over rankings and the council's response.",
+            "sampleReasoning": "The dashboard aimed to support conservation through district water averages. Mixed uses, changing household registers and reading periods limited comparisons and causal claims. Supporters valued visibility but disagreed over competitive rankings and shame. The council proposed more calculation context and postponed rewards, while acknowledging remaining limits.",
+            "reviewPrompts": [
+              "Have I included the main idea and essential qualifications?",
+              "Have I kept the passage's meaning without adding claims?",
+              "Is my summary clear, concise and in my own words?"
+            ]
+          },
+          {
+            "id": "critical",
+            "kind": "critical",
+            "prompt": "Would the council's added context make a reward for the lowest average fair? Discuss at least two distinct issues rather than treating transparency as proof of comparability.",
+            "sampleReasoning": "Transparency helps users inspect totals, reading periods and repairs. It does not equalise household size, mixed commercial use or register accuracy, and a low level need not show the greatest conservation effort. Fairness also depends on whether the reward values low levels, reductions or equitable opportunity; the improved display alone cannot choose among these aims.",
+            "reviewPrompts": [
+              "Have I answered the question with reasons rather than a bare opinion?",
+              "Which passage detail supports my reasoning, and what does it not establish?",
+              "Could another defensible interpretation or limitation improve my answer?"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

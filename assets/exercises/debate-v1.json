@@ -1,0 +1,274 @@
+{
+  "formatVersion": 1,
+  "packId": "debate-arena",
+  "packVersion": 1,
+  "exercises": [
+    {
+      "id": "debate-round-beginner",
+      "version": 1,
+      "module": "debate",
+      "language": "en",
+      "level": "beginner",
+      "title": "A quiet half-hour",
+      "prompt": "This community centre should reserve the first half-hour of its evening common-room session for quiet individual work.",
+      "focus": "State one clear claim, explain one reason, and respond to the opposing concern without dismissing the people affected.",
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Authored offline practice scenarios and scripted arguments; not a factual report."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "debate-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Does the argument address this motion and the position you chose?",
+            "anchors": {
+              "emerging": "The main claim drifts away from the motion.",
+              "developing": "The claim fits the motion, but some points do not advance it.",
+              "effective": "The claim and each main point directly advance the chosen position."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Distinguish a sourced claim, an illustrative example, and an assertion that still needs support.",
+            "anchors": {
+              "emerging": "An assertion or example is presented as proof without a basis.",
+              "developing": "Some support is explained, but its source or limits remain unclear.",
+              "effective": "Support is relevant, its source or hypothetical nature is explicit, and its limits are acknowledged."
+            }
+          },
+          {
+            "id": "reasoning",
+            "label": "Reasoning",
+            "description": "Explain how the support leads to the claim, including assumptions and tradeoffs.",
+            "anchors": {
+              "emerging": "The conclusion is asserted without a connecting explanation.",
+              "developing": "A connection is offered, but an assumption or logical step is missing.",
+              "effective": "The reasoning connects support to the claim and addresses an important assumption or tradeoff."
+            }
+          },
+          {
+            "id": "fairness",
+            "label": "Fair representation",
+            "description": "Represent the scripted opposing position in a way its author could recognize.",
+            "anchors": {
+              "emerging": "The response changes or dismisses the opposing claim.",
+              "developing": "The main concern is recognized, but an important qualification is omitted.",
+              "effective": "The opposing claim and its strongest relevant reason are represented accurately and fairly."
+            }
+          },
+          {
+            "id": "response",
+            "label": "Direct response",
+            "description": "Does the rebuttal answer the actual opposing claim rather than repeat the opening?",
+            "anchors": {
+              "emerging": "The rebuttal repeats a position without addressing the opposing reason.",
+              "developing": "It addresses part of the opposing reason but leaves the main challenge unanswered.",
+              "effective": "It directly answers the opposing reason with an explanation, a qualification, or a justified concession."
+            }
+          }
+        ]
+      },
+      "debate": {
+        "motion": "This community centre should reserve the first half-hour of its evening common-room session for quiet individual work.",
+        "scenario": "Imagine a small community centre with one common room used for both conversation and individual work. No attendance data or survey results are supplied. Treat invented details as hypothetical examples.",
+        "for": {
+          "kind": "scripted",
+          "argument": "A predictable quiet period would give visitors a clear choice. People who need to concentrate could arrive at the beginning, while conversation would still be welcome afterward. I favour a short trial, with a review of whether the arrangement is usable.",
+          "challenge": "Why is a scheduled quiet period better than leaving every visitor to negotiate the noise level?"
+        },
+        "against": {
+          "kind": "scripted",
+          "argument": "A fixed quiet period could exclude people whose only free time is that first half-hour and who come to socialise. A shared room should accommodate conversation as well as concentration. Clear expectations about volume might work without reserving the whole room for one activity.",
+          "challenge": "How would your plan treat visitors whose available time does not match the schedule?"
+        }
+      }
+    },
+    {
+      "id": "debate-round-intermediate",
+      "version": 1,
+      "module": "debate",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Feedback before a final draft",
+      "prompt": "This writing club should make peer feedback a standard step before members share a final draft.",
+      "focus": "Separate an illustrative example from evidence, state a limitation, and rebut the strongest version of the opposing reason.",
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Authored offline practice scenarios and scripted arguments; not a factual report."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "debate-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Does the argument address this motion and the position you chose?",
+            "anchors": {
+              "emerging": "The main claim drifts away from the motion.",
+              "developing": "The claim fits the motion, but some points do not advance it.",
+              "effective": "The claim and each main point directly advance the chosen position."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Distinguish a sourced claim, an illustrative example, and an assertion that still needs support.",
+            "anchors": {
+              "emerging": "An assertion or example is presented as proof without a basis.",
+              "developing": "Some support is explained, but its source or limits remain unclear.",
+              "effective": "Support is relevant, its source or hypothetical nature is explicit, and its limits are acknowledged."
+            }
+          },
+          {
+            "id": "reasoning",
+            "label": "Reasoning",
+            "description": "Explain how the support leads to the claim, including assumptions and tradeoffs.",
+            "anchors": {
+              "emerging": "The conclusion is asserted without a connecting explanation.",
+              "developing": "A connection is offered, but an assumption or logical step is missing.",
+              "effective": "The reasoning connects support to the claim and addresses an important assumption or tradeoff."
+            }
+          },
+          {
+            "id": "fairness",
+            "label": "Fair representation",
+            "description": "Represent the scripted opposing position in a way its author could recognize.",
+            "anchors": {
+              "emerging": "The response changes or dismisses the opposing claim.",
+              "developing": "The main concern is recognized, but an important qualification is omitted.",
+              "effective": "The opposing claim and its strongest relevant reason are represented accurately and fairly."
+            }
+          },
+          {
+            "id": "response",
+            "label": "Direct response",
+            "description": "Does the rebuttal answer the actual opposing claim rather than repeat the opening?",
+            "anchors": {
+              "emerging": "The rebuttal repeats a position without addressing the opposing reason.",
+              "developing": "It addresses part of the opposing reason but leaves the main challenge unanswered.",
+              "effective": "It directly answers the opposing reason with an explanation, a qualification, or a justified concession."
+            }
+          }
+        ]
+      },
+      "debate": {
+        "motion": "This writing club should make peer feedback a standard step before members share a final draft.",
+        "scenario": "Imagine a voluntary writing club that meets weekly. Members have different experience levels and can decline to share personal writing. No research findings about peer feedback are supplied.",
+        "for": {
+          "kind": "scripted",
+          "argument": "A standard feedback step gives writers a chance to discover where readers lose the thread before presenting a final draft. Members could request feedback on one specific concern, and writers would retain control over whether to use it. The process should be brief and allow private material to remain private.",
+          "challenge": "How could this process be designed so feedback informs the writer without taking over their choices?"
+        },
+        "against": {
+          "kind": "scripted",
+          "argument": "Making peer feedback standard may turn a helpful option into pressure to expose unfinished work. Inexperienced feedback can distract a writer, and time spent reviewing may displace time spent writing. An optional feedback circle could offer the benefit while leaving the main process flexible.",
+          "challenge": "What makes the standard step worth its time and social pressure compared with an optional circle?"
+        }
+      }
+    },
+    {
+      "id": "debate-round-advanced",
+      "version": 1,
+      "module": "debate",
+      "language": "en",
+      "level": "advanced",
+      "title": "A trial before a permanent change",
+      "prompt": "This volunteer association should require a time-limited pilot before making a major permanent change to how it runs its events.",
+      "focus": "Acknowledge a genuine tradeoff or concession, distinguish decision quality from certainty, and answer the opposing qualification directly.",
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Authored offline practice scenarios and scripted arguments; not a factual report."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "debate-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Does the argument address this motion and the position you chose?",
+            "anchors": {
+              "emerging": "The main claim drifts away from the motion.",
+              "developing": "The claim fits the motion, but some points do not advance it.",
+              "effective": "The claim and each main point directly advance the chosen position."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Distinguish a sourced claim, an illustrative example, and an assertion that still needs support.",
+            "anchors": {
+              "emerging": "An assertion or example is presented as proof without a basis.",
+              "developing": "Some support is explained, but its source or limits remain unclear.",
+              "effective": "Support is relevant, its source or hypothetical nature is explicit, and its limits are acknowledged."
+            }
+          },
+          {
+            "id": "reasoning",
+            "label": "Reasoning",
+            "description": "Explain how the support leads to the claim, including assumptions and tradeoffs.",
+            "anchors": {
+              "emerging": "The conclusion is asserted without a connecting explanation.",
+              "developing": "A connection is offered, but an assumption or logical step is missing.",
+              "effective": "The reasoning connects support to the claim and addresses an important assumption or tradeoff."
+            }
+          },
+          {
+            "id": "fairness",
+            "label": "Fair representation",
+            "description": "Represent the scripted opposing position in a way its author could recognize.",
+            "anchors": {
+              "emerging": "The response changes or dismisses the opposing claim.",
+              "developing": "The main concern is recognized, but an important qualification is omitted.",
+              "effective": "The opposing claim and its strongest relevant reason are represented accurately and fairly."
+            }
+          },
+          {
+            "id": "response",
+            "label": "Direct response",
+            "description": "Does the rebuttal answer the actual opposing claim rather than repeat the opening?",
+            "anchors": {
+              "emerging": "The rebuttal repeats a position without addressing the opposing reason.",
+              "developing": "It addresses part of the opposing reason but leaves the main challenge unanswered.",
+              "effective": "It directly answers the opposing reason with an explanation, a qualification, or a justified concession."
+            }
+          }
+        ]
+      },
+      "debate": {
+        "motion": "This volunteer association should require a time-limited pilot before making a major permanent change to how it runs its events.",
+        "scenario": "Imagine a volunteer association considering changes to event schedules and registration. A pilot takes planning effort, and volunteers have limited time. No cost, participation, or outcome figures are given.",
+        "for": {
+          "kind": "scripted",
+          "argument": "A pilot makes a major decision more reversible and gives the association a chance to notice practical problems before committing. Before the trial, members should define what would justify keeping, revising, or rejecting the change. The scale of the pilot should match the importance of the decision.",
+          "challenge": "Which decision conditions would make a pilot informative rather than merely a delay?"
+        },
+        "against": {
+          "kind": "scripted",
+          "argument": "A pilot requirement could consume scarce volunteer time even when a change is straightforward or urgent. A temporary trial may also produce misleading impressions if participants behave differently because the arrangement is temporary. The association should be able to choose a pilot when uncertainty warrants one, rather than make it a universal requirement.",
+          "challenge": "How would a required pilot handle urgent changes, limited capacity, and a trial that does not represent normal conditions?"
+        }
+      }
+    }
+  ]
+}

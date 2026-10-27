@@ -1,0 +1,1231 @@
+{
+  "formatVersion": 1,
+  "packId": "impromptu-arena",
+  "packVersion": 1,
+  "exercises": [
+    {
+      "id": "impromptu-beginner-everyday-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "beginner",
+      "title": "Everyday challenge 1",
+      "prompt": "What is one small habit that makes a busy morning easier, and why?",
+      "focus": "Give one clear answer, a reason and a concrete example.",
+      "impromptu": {
+        "category": "everyday"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-beginner-everyday-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "beginner",
+      "title": "Everyday challenge 2",
+      "prompt": "If a friend had one free afternoon in your neighbourhood, what would you suggest and why?",
+      "focus": "Give one clear answer, a reason and a concrete example.",
+      "impromptu": {
+        "category": "everyday"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-beginner-community-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "beginner",
+      "title": "Community challenge 1",
+      "prompt": "What is one practical way to help a new member feel welcome in a group?",
+      "focus": "Give one clear answer, a reason and a concrete example.",
+      "impromptu": {
+        "category": "community"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-beginner-community-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "beginner",
+      "title": "Community challenge 2",
+      "prompt": "Which shared-space rule would make a study room easier to use, and why?",
+      "focus": "Give one clear answer, a reason and a concrete example.",
+      "impromptu": {
+        "category": "community"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-beginner-ideas-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "beginner",
+      "title": "Ideas challenge 1",
+      "prompt": "Is it better to learn a simple skill by watching or by trying? Explain your choice.",
+      "focus": "Give one clear answer, a reason and a concrete example.",
+      "impromptu": {
+        "category": "ideas"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-beginner-ideas-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "beginner",
+      "title": "Ideas challenge 2",
+      "prompt": "What makes an everyday object well designed? Choose one object to illustrate your answer.",
+      "focus": "Give one clear answer, a reason and a concrete example.",
+      "impromptu": {
+        "category": "ideas"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-intermediate-everyday-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Everyday challenge 1",
+      "prompt": "When plans change unexpectedly, how should someone decide what to keep and what to drop?",
+      "focus": "Connect your answer to an example and acknowledge a useful limitation.",
+      "impromptu": {
+        "category": "everyday"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-intermediate-everyday-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Everyday challenge 2",
+      "prompt": "Should a person finish one task before starting another? Explain when your advice might change.",
+      "focus": "Connect your answer to an example and acknowledge a useful limitation.",
+      "impromptu": {
+        "category": "everyday"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-intermediate-community-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Community challenge 1",
+      "prompt": "A club has more project ideas than volunteers. How should it choose what to do first?",
+      "focus": "Connect your answer to an example and acknowledge a useful limitation.",
+      "impromptu": {
+        "category": "community"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-intermediate-community-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Community challenge 2",
+      "prompt": "How can a team disagree about a decision without making quieter members disappear from the discussion?",
+      "focus": "Connect your answer to an example and acknowledge a useful limitation.",
+      "impromptu": {
+        "category": "community"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-intermediate-ideas-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Ideas challenge 1",
+      "prompt": "When is a simple explanation helpful, and when can it become misleading?",
+      "focus": "Connect your answer to an example and acknowledge a useful limitation.",
+      "impromptu": {
+        "category": "ideas"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-intermediate-ideas-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Ideas challenge 2",
+      "prompt": "Is consistency or flexibility more valuable in a shared routine? Use an example and acknowledge a limit.",
+      "focus": "Connect your answer to an example and acknowledge a useful limitation.",
+      "impromptu": {
+        "category": "ideas"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-advanced-everyday-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "advanced",
+      "title": "Everyday challenge 1",
+      "prompt": "How should someone balance a promise with new information that makes the promise costly or unwise?",
+      "focus": "Make a defensible distinction, consider a tradeoff and return to a clear answer.",
+      "impromptu": {
+        "category": "everyday"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-advanced-everyday-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "advanced",
+      "title": "Everyday challenge 2",
+      "prompt": "Can choosing not to optimize a routine be a sensible decision? Explain your criteria and a counterexample.",
+      "focus": "Make a defensible distinction, consider a tradeoff and return to a clear answer.",
+      "impromptu": {
+        "category": "everyday"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-advanced-community-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "advanced",
+      "title": "Community challenge 1",
+      "prompt": "How should a community decide between a broadly useful improvement and one that removes a serious barrier for a few people?",
+      "focus": "Make a defensible distinction, consider a tradeoff and return to a clear answer.",
+      "impromptu": {
+        "category": "community"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-advanced-community-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "advanced",
+      "title": "Community challenge 2",
+      "prompt": "When a group cannot agree on what success means, what should it decide before running a small trial?",
+      "focus": "Make a defensible distinction, consider a tradeoff and return to a clear answer.",
+      "impromptu": {
+        "category": "community"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-advanced-ideas-1",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "advanced",
+      "title": "Ideas challenge 1",
+      "prompt": "Can a decision be reasonable even when its outcome is poor? Distinguish the quality of the process from hindsight.",
+      "focus": "Make a defensible distinction, consider a tradeoff and return to a clear answer.",
+      "impromptu": {
+        "category": "ideas"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "impromptu-advanced-ideas-2",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "advanced",
+      "title": "Ideas challenge 2",
+      "prompt": "When should uncertainty lead to delay, and when should it lead to a reversible experiment? Explain a boundary case.",
+      "focus": "Make a defensible distinction, consider a tradeoff and return to a clear answer.",
+      "impromptu": {
+        "category": "ideas"
+      },
+      "authorship": {
+        "creator": "Articulate original practice content",
+        "kind": "original",
+        "source": "Original locally bundled questions for reflection and communication practice."
+      },
+      "license": {
+        "id": "CC0-1.0",
+        "notice": "Original practice text authored for Articulate; free to adapt under CC0."
+      },
+      "rubric": {
+        "id": "impromptu-self-review",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "directness",
+            "label": "Directness",
+            "description": "Did you answer the actual question clearly?",
+            "anchors": {
+              "emerging": "The answer is difficult to locate.",
+              "developing": "A position is present but arrives late or stays vague.",
+              "effective": "A clear answer appears early and remains recognizable."
+            }
+          },
+          {
+            "id": "structure",
+            "label": "Structure",
+            "description": "Can a listener follow the order and conclusion?",
+            "anchors": {
+              "emerging": "Ideas appear without a clear connection.",
+              "developing": "Some signposts help, but a transition or conclusion is missing.",
+              "effective": "The answer progresses through connected points to a purposeful close."
+            }
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "description": "Did reasons or examples explain the answer without pretending to prove more than they do?",
+            "anchors": {
+              "emerging": "A claim is offered without a reason or concrete illustration.",
+              "developing": "A reason or example is offered but its connection or limits need explanation.",
+              "effective": "Relevant reasons or specific examples support the answer with honest limits."
+            }
+          },
+          {
+            "id": "relevance",
+            "label": "Relevance",
+            "description": "Did each part help answer this question?",
+            "anchors": {
+              "emerging": "Much of the response moves away from the question.",
+              "developing": "Most content fits, with a detour or unresolved qualification.",
+              "effective": "Details and qualifications serve the question and fit the chosen scope."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

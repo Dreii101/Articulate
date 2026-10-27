@@ -1,0 +1,637 @@
+{
+  "formatVersion": 1,
+  "packId": "articulate-core",
+  "packVersion": 1,
+  "exercises": [
+    {
+      "id": "writing-beginner",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "beginner",
+      "title": "Make the everyday clear",
+      "prompt": "Explain how to prepare your favorite simple meal to someone who has never cooked it. Use 100–150 words and a clear sequence.",
+      "focus": "One purpose, clear steps, useful details.",
+      "rubric": {
+        "id": "writing-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "One purpose, clear steps, useful details."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "writing-intermediate",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Build a supported argument",
+      "prompt": "Should students have one day each week without scheduled classes? Write 300–500 words. Give two reasons, a concrete example, and a fair counterargument.",
+      "focus": "A clear claim with relevant support.",
+      "rubric": {
+        "id": "writing-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "A clear claim with relevant support."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "writing-advanced",
+      "version": 1,
+      "module": "writing",
+      "language": "en",
+      "level": "advanced",
+      "title": "One idea, two audiences",
+      "prompt": "Explain how recommendation algorithms shape what people see. Write one version for a younger student and another for a school administrator. Note what you changed and why.",
+      "focus": "Audience awareness without losing nuance.",
+      "rubric": {
+        "id": "writing-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Audience awareness without losing nuance."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "reading-beginner",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "beginner",
+      "title": "Find the main idea",
+      "prompt": "A neighborhood library moved its opening time from nine to eight. Morning visitors increased, but afternoon attendance stayed the same. Staff will review the change after a month.\n\nWhat changed, and what does the library still need to learn?",
+      "focus": "Separate what the passage says from what you assume.",
+      "rubric": {
+        "id": "reading-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Separate what the passage says from what you assume."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "reading-intermediate",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Look for the missing evidence",
+      "prompt": "A café owner says reusable cups increased sales because sales rose after the cups were introduced. During the same month, the café also extended its opening hours.\n\nWhat other explanation should be considered? What evidence would help?",
+      "focus": "Distinguish an observation from a causal claim.",
+      "rubric": {
+        "id": "reading-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Distinguish an observation from a causal claim."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "reading-advanced",
+      "version": 1,
+      "module": "reading",
+      "language": "en",
+      "level": "advanced",
+      "title": "Compare two positions",
+      "prompt": "Position A: A later school start gives students more time to rest.\nPosition B: A later start complicates transport and family schedules.\n\nSummarize the strongest concern on each side. Propose information that would help evaluate both positions.",
+      "focus": "Fair synthesis and evidence-aware conclusions.",
+      "rubric": {
+        "id": "reading-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Fair synthesis and evidence-aware conclusions."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "speech-beginner",
+      "version": 1,
+      "module": "speech",
+      "language": "en",
+      "level": "beginner",
+      "title": "An introduction that connects",
+      "prompt": "Plan a one-minute introduction about an interest you care about. Open with a specific moment, explain why it matters, and finish with one memorable thought.",
+      "focus": "An opening, a main point, and a clear close.",
+      "rubric": {
+        "id": "speech-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "An opening, a main point, and a clear close."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "speech-intermediate",
+      "version": 1,
+      "module": "speech",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Explain something useful",
+      "prompt": "Prepare a three-minute explanation of a skill you know. Include one example and a transition between each main idea.",
+      "focus": "Structure, intelligibility, and purposeful transitions.",
+      "rubric": {
+        "id": "speech-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Structure, intelligibility, and purposeful transitions."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "speech-advanced",
+      "version": 1,
+      "module": "speech",
+      "language": "en",
+      "level": "advanced",
+      "title": "Speak to a skeptical audience",
+      "prompt": "Prepare a five-minute proposal to improve a shared space. Acknowledge a reasonable objection and explain the tradeoff behind your recommendation.",
+      "focus": "Audience needs, emphasis, and a qualified conclusion.",
+      "rubric": {
+        "id": "speech-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Audience needs, emphasis, and a qualified conclusion."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "memory-beginner",
+      "version": 1,
+      "module": "memory",
+      "language": "en",
+      "level": "beginner",
+      "title": "Remember the message",
+      "prompt": "Read this short message: “Clear communication begins with attention. Listen for the question before planning the answer. Then choose one useful idea and explain it simply.”\n\nImagine recalling its three ideas using only three keywords.",
+      "focus": "Recall the meaning before checking the wording.",
+      "rubric": {
+        "id": "memory-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Recall the meaning before checking the wording."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "memory-intermediate",
+      "version": 1,
+      "module": "memory",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Connect the sections",
+      "prompt": "Choose a short speech and divide it into an opening, two main ideas, and a close. Give each section a keyword and identify the transition to the next.",
+      "focus": "Recall both ideas and the links between them.",
+      "rubric": {
+        "id": "memory-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Recall both ideas and the links between them."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "memory-advanced",
+      "version": 1,
+      "module": "memory",
+      "language": "en",
+      "level": "advanced",
+      "title": "Recover your place",
+      "prompt": "Choose a familiar speech. Imagine starting from a middle section, then continuing to the close. Identify a phrase that would help you recover after forgetting a line.",
+      "focus": "Flexible recall and graceful recovery.",
+      "rubric": {
+        "id": "memory-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Flexible recall and graceful recovery."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "debate-beginner",
+      "version": 1,
+      "module": "debate",
+      "language": "en",
+      "level": "beginner",
+      "title": "A reason worth hearing",
+      "prompt": "Motion: Libraries should stay open on weekends. Choose a position and outline one claim, one reason, and one example. Identify which parts would need factual evidence.",
+      "focus": "Connect your support to your claim.",
+      "rubric": {
+        "id": "debate-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Connect your support to your claim."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "debate-intermediate",
+      "version": 1,
+      "module": "debate",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Respond to the real concern",
+      "prompt": "Motion: Schools should replace some printed materials with digital copies.\nScripted opposing view: “Some students cannot reliably access a device.”\n\nOutline a rebuttal that addresses access directly.",
+      "focus": "Respond fairly instead of changing the subject.",
+      "rubric": {
+        "id": "debate-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Respond fairly instead of changing the subject."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "debate-advanced",
+      "version": 1,
+      "module": "debate",
+      "language": "en",
+      "level": "advanced",
+      "title": "Defend a qualified position",
+      "prompt": "Motion: Cities should restrict private vehicles in busy centers. Explain your position, acknowledge a serious cost, and state a condition that might change your conclusion.",
+      "focus": "Weigh tradeoffs and make uncertainty visible.",
+      "rubric": {
+        "id": "debate-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Weigh tradeoffs and make uncertainty visible."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "impromptu-beginner",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "beginner",
+      "title": "A small change that helped",
+      "prompt": "What is one small change that made your day easier? Consider a point, a reason, an example, and a closing thought. Suggested future practice: 30 seconds to prepare, 60 seconds to answer.",
+      "focus": "Answer directly with one concrete example.",
+      "rubric": {
+        "id": "impromptu-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Answer directly with one concrete example."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "impromptu-intermediate",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "intermediate",
+      "title": "Explain your choice",
+      "prompt": "If you could improve one public space in your neighborhood, which would you choose and why? Suggested future practice: 15 seconds to prepare, 90 seconds to answer.",
+      "focus": "Choose a direction and organize the explanation.",
+      "rubric": {
+        "id": "impromptu-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Choose a direction and organize the explanation."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    },
+    {
+      "id": "impromptu-advanced",
+      "version": 1,
+      "module": "impromptu",
+      "language": "en",
+      "level": "advanced",
+      "title": "Handle an unexpected follow-up",
+      "prompt": "You proposed a new community activity. Someone asks: “What would you do if very few people came?” Explain an adaptable response without pretending to know the outcome.",
+      "focus": "Coherence, adaptability, and honest uncertainty.",
+      "rubric": {
+        "id": "impromptu-reflection",
+        "version": 1,
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "Practice focus",
+            "description": "Coherence, adaptability, and honest uncertainty."
+          },
+          {
+            "id": "reflection",
+            "label": "Reflect on your response",
+            "description": "Identify one part that worked and one specific improvement. This is self-assessment, not an objective score."
+          }
+        ]
+      },
+      "authorship": {
+        "creator": "Articulate project",
+        "kind": "original",
+        "source": "Original exercise text created for the Articulate Phase 1 catalogue."
+      },
+      "license": {
+        "id": "LicenseRef-Articulate-Personal-Use",
+        "notice": "Original project exercise text included for personal use within Articulate. No third-party passage is reproduced."
+      }
+    }
+  ]
+}

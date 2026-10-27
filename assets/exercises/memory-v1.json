@@ -1,0 +1,114 @@
+{
+  "formatVersion": 1,
+  "packVersion": 1,
+  "speeches": [
+    {
+      "title": "Make room for a clear answer",
+      "language": "en",
+      "level": "beginner",
+      "author": "Articulate original practice content",
+      "license": "CC0-1.0. Original text authored for Articulate; free to adapt.",
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Listen first",
+          "text": "Clear communication begins with attention. Before planning an answer, listen for the question the other person is actually asking. A brief pause can give you time to understand.",
+          "phrase": "Clear communication begins",
+          "keywords": "attention, question, pause",
+          "ideas": "Listen before composing an answer. A pause can help understanding.",
+          "transition": "Once you understand the question, choose a useful response."
+        },
+        {
+          "id": "section-2",
+          "title": "Choose one useful idea",
+          "text": "You do not need to say everything you know. Choose one idea that helps this listener now. Explain it with a familiar example, then check whether the example made sense.",
+          "phrase": "Choose one idea",
+          "keywords": "one idea, example, check",
+          "ideas": "Select a relevant idea and make it concrete. Check understanding.",
+          "transition": "A useful explanation creates room for the other person to respond."
+        },
+        {
+          "id": "section-3",
+          "title": "Leave room for a reply",
+          "text": "A conversation is not a race to finish speaking. Leave room for another question or a different view. When both people can respond, the message has somewhere to go.",
+          "phrase": "Leave room",
+          "keywords": "space, question, response",
+          "ideas": "Give the other person room to participate.",
+          "transition": "Close by returning to the value of attention."
+        }
+      ]
+    },
+    {
+      "title": "A small experiment for a shared space",
+      "language": "en",
+      "level": "intermediate",
+      "author": "Articulate original practice content",
+      "license": "CC0-1.0. Original text authored for Articulate; free to adapt.",
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Name the problem",
+          "text": "Our common room serves several purposes, but its layout assumes everyone wants the same thing. Someone reading quietly may sit beside a lively group. Neither activity is wrong; the room simply gives people too few choices.",
+          "phrase": "Neither activity is wrong",
+          "keywords": "common room, different needs, choices",
+          "ideas": "The problem is a mismatch between layout and different needs, not bad users.",
+          "transition": "Different needs suggest trying a small change."
+        },
+        {
+          "id": "section-2",
+          "title": "Propose a reversible change",
+          "text": "For two weeks, we could move one table to the quieter corner and label it for individual work. The remaining tables would stay open for conversation. We would ask visitors what worked, what did not, and whether the arrangement made finding a place easier.",
+          "phrase": "For two weeks",
+          "keywords": "quiet table, conversation, visitor feedback",
+          "ideas": "Try a time-limited change, retain social space, and gather feedback.",
+          "transition": "Feedback matters only if it can change our decision."
+        },
+        {
+          "id": "section-3",
+          "title": "Set a decision rule",
+          "text": "If visitors find the arrangement useful and it does not create a new access problem, we can keep it. If it shifts the inconvenience to someone else, we should revise it. The aim is not to defend our first plan, but to learn how this room can serve more people.",
+          "phrase": "The aim is not to defend",
+          "keywords": "usefulness, access, revise",
+          "ideas": "Evaluate usefulness and access. Revise the plan when evidence shows a problem.",
+          "transition": "End with learning rather than certainty."
+        }
+      ]
+    },
+    {
+      "title": "Make uncertainty part of a recommendation",
+      "language": "en",
+      "level": "advanced",
+      "author": "Articulate original practice content",
+      "license": "CC0-1.0. Original text authored for Articulate; free to adapt.",
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "Separate observation from explanation",
+          "text": "A shorter queue is encouraging, but it does not explain itself. Perhaps a new booking system helped. Perhaps fewer people arrived, or staff handled simpler requests. Before turning one observation into a confident story, we should name the explanations that remain plausible.",
+          "phrase": "A shorter queue",
+          "keywords": "observation, alternatives, confidence",
+          "ideas": "An observed improvement does not establish its cause. Keep plausible alternatives visible.",
+          "transition": "Once alternatives are named, ask what evidence would distinguish them."
+        },
+        {
+          "id": "section-2",
+          "title": "Choose evidence that could change your mind",
+          "text": "We should compare similar periods and record both arrivals and the time needed for different requests. That comparison will still have limits: a busy week may differ in ways we did not measure. Useful evidence does not erase uncertainty; it narrows the decisions we can reasonably defend.",
+          "phrase": "Useful evidence does not erase uncertainty",
+          "keywords": "comparison, limits, defensible decisions",
+          "ideas": "Compare relevant conditions and acknowledge remaining uncertainty.",
+          "transition": "Limited evidence can still support a limited action."
+        },
+        {
+          "id": "section-3",
+          "title": "Recommend a proportionate next step",
+          "text": "I recommend continuing the booking trial for one more month, while keeping a walk-in route for people who cannot use it. We should state in advance what would lead us to keep, revise, or end the trial. A recommendation becomes stronger when its conditions are visible and its supporters remain willing to change it.",
+          "phrase": "A recommendation becomes stronger",
+          "keywords": "limited trial, access, decision conditions",
+          "ideas": "Continue a bounded trial, preserve access, and make decision conditions explicit.",
+          "transition": "Conclude by linking confidence to openness to revision."
+        }
+      ]
+    }
+  ]
+}

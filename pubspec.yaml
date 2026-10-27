@@ -1,0 +1,48 @@
+name: articulate
+description: "Offline communication practice with saved drafts and trustworthy timing."
+publish_to: 'none'
+version: 1.1.0+12
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: 3.0.7
+  drift: 2.35.3
+  flutter_riverpod: 3.4.3
+  path_provider: 2.1.6
+  record: 7.1.2
+  media_kit: 1.2.6
+  media_kit_libs_audio: 1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  drift_dev: 2.35.2
+  build_runner: 2.16.2
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/exercises/core-v1.json
+    - assets/exercises/writing-v1.json
+    - assets/exercises/reading-v1.json
+    - assets/exercises/memory-v1.json
+    - assets/exercises/debate-v1.json
+    - assets/exercises/impromptu-v1.json
+    - assets/images/finding-your-voice.png
+    - assets/fonts/Manrope-OFL.txt
+    - assets/fonts/Lora-OFL.txt
+    - assets/licenses/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora.ttf

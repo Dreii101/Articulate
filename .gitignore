@@ -1,0 +1,31 @@
+# Private data and credentials
+.private/
+.publish-source/
+.env
+.env.*
+*.jks
+*.keystore
+key.properties
+android/key.properties
+android/local.properties
+*.sqlite
+*.sqlite-*
+*.db
+*.articulate
+releases/
+evidence/
+.tooling/
+# Generated files
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+coverage/
+.idea/
+*.iml
+android/.gradle/
+android/.cxx/
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+windows/flutter/ephemeral/
