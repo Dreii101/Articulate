@@ -4,9 +4,9 @@ An offline personal communication-training application for Android and Windows. 
 
 ## Installation
 
-**Downloadable installers are not available yet.** The current binaries have not completed the native audio-library redistribution audit. Android hardware and Windows clean-install verification are also pending. Do not treat the current build as a production release.
+**No end-user downloads are published yet.** The native audio-library redistribution audit is still open, so no installers have been uploaded. The ARM64 Android candidate was freshly installed and launched on an OPPO CPH2565 (Android 15/API 35); physical capture/playback and Android↔Windows archive restores passed with synthetic fixtures. Windows clean-install and shortcut verification remain pending.
 
-Developers can run a local build using Flutter 3.47.7 / Dart 3.13.5, the Android SDK and, for Windows, Visual Studio 2022 with Desktop development with C++. Clone this repository and run:
+To build and install from source, use Flutter 3.47.7 / Dart 3.13.5 and the Android SDK; Windows builds also require Visual Studio 2022 with Desktop development with C++. Clone this repository, then run:
 
 ```sh
 flutter pub get
@@ -15,7 +15,24 @@ flutter test --concurrency=1
 flutter run -d windows
 ```
 
-For a connected Android device, `flutter run -d <device-id>` creates a debug build. The existing application ID is `dev.articulate.articulate`; avoid uninstalling an existing copy or clearing its data. An Android release build requires your own private signing configuration; a different key cannot update an existing installation signed by the original developer. Do not commit keys or passwords. Flutter's [Android deployment guide](https://docs.flutter.dev/deployment/android) and [Windows build guide](https://docs.flutter.dev/platform-integration/windows/building) cover tool setup.
+For an Android release build, create a private signing key once and back it up securely, then build the ARM64 APK:
+
+```powershell
+.\tool\create-signing-key.ps1
+flutter build apk --release --target-platform android-arm64
+```
+
+Install `build/app/outputs/flutter-apk/app-release.apk` by opening it on the phone, or with `adb install build/app/outputs/flutter-apk/app-release.apk`. Keep the generated `.private` key and passwords out of Git. A different key cannot update an installation signed by another developer.
+
+For Windows, build and run the complete release folder:
+
+```powershell
+flutter build windows --release
+```
+
+Copy or zip the entire `build/windows/x64/runner/Release` folder, then run `articulate.exe` from that folder. Keep its DLL files and `data` directory alongside the executable; a shortcut can point to that executable.
+
+These are self-build instructions, not published downloads. Do not redistribute generated packages until the native audio-library source, relinking and attribution audit is complete. Flutter's [Android deployment guide](https://docs.flutter.dev/deployment/android) and [Windows build guide](https://docs.flutter.dev/platform-integration/windows/building) cover tool setup.
 
 The release candidate previously built by the project targets ARM64 Android (API 24+) and x64 Windows, not every Android or Windows architecture. Windows requires all generated DLLs and the complete `data` folder alongside the executable. See [native audio notices](assets/licenses/NATIVE-NOTICES.txt) for the unresolved distribution requirements.
 

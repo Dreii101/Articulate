@@ -28,6 +28,10 @@ import '../test/data_fixture.dart';
 class NativeTestFiles extends DataFiles {
   NativeTestFiles(this.destination);
   final String destination;
+  final String importPath = const String.fromEnvironment('DATA_IMPORT_PATH');
+  final String importSource = const String.fromEnvironment(
+    'DATA_IMPORT_SOURCE',
+  );
   bool first = true;
   final bool real = const bool.fromEnvironment('DATA_REAL_PICKERS');
   String? saved;
@@ -51,7 +55,7 @@ class NativeTestFiles extends DataFiles {
     if (save) {
       saved = destination;
     }
-    return destination;
+    return save || importPath.isEmpty ? destination : importPath;
   }
 }
 
@@ -81,7 +85,7 @@ void main() {
           await rootBundle.loadString('assets/exercises/$name-v1.json'),
         );
       }
-      final ids = await populateData(
+      await populateData(
         p,
         root,
         packs: packs,
@@ -89,10 +93,16 @@ void main() {
           'assets/exercises/memory-v1.json',
         ),
       );
-      final original = (await db.select(db.audioRecordings).get()).first,
-          originalHash = await fileDigest(
-            File('${root.path}/${original.relativePath}'),
-          );
+      Future<List<String>> mediaHashes() async {
+        final rows = await db.select(db.audioRecordings).get(),
+            hashes = <String>[
+              for (final row in rows)
+                await fileDigest(File('${root.path}/${row.relativePath}')),
+            ];
+        return hashes..sort();
+      }
+
+      final originalHashes = await mediaHashes();
       const chosen = String.fromEnvironment('DATA_EXPORT_PATH');
       final destination = chosen.isEmpty
           ? '${support.path}/verification/Articulate ü data-${DateTime.now().microsecondsSinceEpoch}.articulate'
@@ -184,17 +194,18 @@ void main() {
       expect(await db.select(db.practiceSessions).get(), hasLength(15));
       expect(await manager.recoveryArchives(), hasLength(1));
       expect(
-        (await p.load(ids['w1']!)).response.body,
-        'First draft with an example.',
+        (await db.select(db.responses).get()).any(
+          (r) => r.body == 'First draft with an example.',
+        ),
+        isTrue,
       );
-      expect(
-        await fileDigest(File('${root.path}/${original.relativePath}')),
-        originalHash,
-      );
+      expect(await mediaHashes(), originalHashes);
       final context = t.element(find.byType(DataManagementPage)),
           container = ProviderScope.containerOf(context),
-          audio = await container.read(localAudioProvider.future),
-          take = await audio.store.load(original.id);
+          audio = await container.read(localAudioProvider.future);
+      final take = await audio.store.load(
+        (await db.select(db.audioRecordings).get()).first.id,
+      );
       await audio.select(take);
       await (audio.backend as NativeAudioBackend).player.setVolume(25);
       await audio.playPause();
@@ -214,10 +225,7 @@ void main() {
       manager = DataManager(p, root, space: DataFiles().freeBytes);
       await manager.recover();
       expect(await db.select(db.practiceSessions).get(), hasLength(15));
-      expect(
-        await fileDigest(File('${root.path}/${original.relativePath}')),
-        originalHash,
-      );
+      expect(await mediaHashes(), originalHashes);
       final report = {
         'platform': Platform.operatingSystem,
         'root': root.path,
@@ -233,14 +241,18 @@ void main() {
         'previewKeptCurrentLibrary': true,
         'explicitReplaceRequired': true,
         'recoverySnapshots': (await manager.recoveryArchives()).length,
-        'originalMediaSha256': originalHash,
-        'restoredMediaSha256': await fileDigest(
-          File('${root.path}/${original.relativePath}'),
-        ),
+        'originalMediaSha256': originalHashes,
+        'restoredMediaSha256': await mediaHashes(),
         'playbackPositionMs': position,
         'humanListening': 'Not requested; native decoding/playback of synthetic PCM verified.',
         'restartPreservedLibrary': true,
-        'crossPlatformRoundTrip': 'Android device checks deferred at user request; Windows round-trip only',
+        'crossPlatformRoundTrip': files.importSource.isNotEmpty
+            ? 'restored ${files.importSource} archive'
+            : files.real
+            ? 'same-platform document-URI export and restore'
+            : files.importPath.isEmpty
+            ? 'same-platform filesystem export and restore'
+            : 'supplied archive restored; source platform is caller-verified',
         'fixture': 'Synthetic library, isolated from personal history',
       };
       await File('${root.path}/capability.json')
