@@ -4,41 +4,58 @@ An offline personal communication-training application for Android and Windows. 
 
 ## Installation
 
-**No end-user downloads are published yet.** The native audio-library redistribution audit is still open, so no installers have been uploaded. The ARM64 Android candidate was freshly installed and launched on an OPPO CPH2565 (Android 15/API 35); physical capture/playback and Android↔Windows archive restores passed with synthetic fixtures. Windows clean-install and shortcut verification remain pending.
+### Direct downloads
 
-To build and install from source, use Flutter 3.47.7 / Dart 3.13.5 and the Android SDK; Windows builds also require Visual Studio 2022 with Desktop development with C++. Clone this repository, then run:
+**Installable downloads are not published yet.** The [GitHub Releases page](https://github.com/Dreii101/Articulate/releases) is where the Android and Windows downloads will appear when distribution is cleared. It currently contains no installer assets.
+
+The prepared Android ARM64 APK and Windows x64 bundle are private release candidates. Their bundled native audio libraries still need a complete corresponding-source package and verified attribution inventory; see [native audio notices](assets/licenses/NATIVE-NOTICES.txt). I have not published those files as downloads.
+
+The planned downloads are:
+
+- **Android ARM64:** one APK for 64-bit ARM phones. The tested phone was an OPPO CPH2565 running Android 15/API 35; it installed, launched, recorded and played audio.
+- **Windows x64:** a ZIP containing the complete app folder. Extract the folder and run `articulate.exe`; the EXE needs its DLLs and `data` directory beside it, so it is not a standalone file. A clean Windows installation and shortcut check are still pending.
+
+### Build and install from source
+
+Use Flutter 3.47.7 / Dart 3.13.5 and the Android SDK. Windows builds also require Visual Studio 2022 with **Desktop development with C++**. Clone this repository and run:
 
 ```sh
+git clone https://github.com/Dreii101/Articulate.git
+cd Articulate
 flutter pub get
 flutter analyze
 flutter test --concurrency=1
+```
+
+To run the app on Windows:
+
+```powershell
 flutter run -d windows
 ```
 
-For an Android release build, create a private signing key once and back it up securely, then build the ARM64 APK:
+To create and install an Android ARM64 release APK, create a signing key once, back it up securely, then build and install:
 
 ```powershell
 .\tool\create-signing-key.ps1
 flutter build apk --release --target-platform android-arm64
+adb install -r build\app\outputs\flutter-apk\app-release.apk
 ```
 
-Install `build/app/outputs/flutter-apk/app-release.apk` by opening it on the phone, or with `adb install build/app/outputs/flutter-apk/app-release.apk`. Keep the generated `.private` key and passwords out of Git. A different key cannot update an installation signed by another developer.
+Keep the generated `.private` key and passwords out of Git. Future APK updates must be signed with the same key.
 
-For Windows, build and run the complete release folder:
+To build the Windows x64 app:
 
 ```powershell
 flutter build windows --release
 ```
 
-Copy or zip the entire `build/windows/x64/runner/Release` folder, then run `articulate.exe` from that folder. Keep its DLL files and `data` directory alongside the executable; a shortcut can point to that executable.
+Run `build\windows\x64\runner\Release\articulate.exe` from the complete release folder. If packaging it yourself, include every file in that folder; do not copy the EXE alone. Flutter's [Android deployment guide](https://docs.flutter.dev/deployment/android) and [Windows build guide](https://docs.flutter.dev/platform-integration/windows/building) cover tool setup.
 
-These are self-build instructions, not published downloads. Do not redistribute generated packages until the native audio-library source, relinking and attribution audit is complete. Flutter's [Android deployment guide](https://docs.flutter.dev/deployment/android) and [Windows build guide](https://docs.flutter.dev/platform-integration/windows/building) cover tool setup.
-
-The release candidate previously built by the project targets ARM64 Android (API 24+) and x64 Windows, not every Android or Windows architecture. Windows requires all generated DLLs and the complete `data` folder alongside the executable. See [native audio notices](assets/licenses/NATIVE-NOTICES.txt) for the unresolved distribution requirements.
+These are developer build instructions, not direct downloads. The verified release targets ARM64 Android (API 24+) and x64 Windows only.
 
 ## Privacy and backups
 
-Settings → Data & privacy can export an unencrypted local archive containing practice text and original audio. Keep exports private and validate a backup before changing installations. Restore replaces the current library after a preview and explicit confirmation. Cross-platform restore remains to be verified on physical Android hardware.
+Settings → Data & privacy can export an unencrypted local archive containing practice text and original audio. Keep exports private and validate a backup before changing installations. Restore replaces the current library after a preview and explicit confirmation. Android↔Windows export and restore were verified on physical Android with synthetic test libraries; personal practice data was not used.
 
 ## Practice
 
